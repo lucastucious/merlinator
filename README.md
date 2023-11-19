@@ -9,6 +9,7 @@ Merlinator est un éditeur de playlist pour l'enceinte Merlin de La Chouette Rad
 ### Préliminaire : accéder à la carte micro-sd
 
 Ouvrir la Merlin en dévissant les 4 vis dans le dos de l'enceinte. Sur le circuit imprimé principal, un emplacement pour carte micro-SD est accessible. Pour libérer la carte, pousser dessus comme pour l'enfoncer un peu plus dans le lecteur. Vous pouvez maintenant la retirer. La carte est normalementz lisible sur n'importe quel lecteur de micro-SD. En particulier, on peu la mettre dans un téléphone portable pour accéder directement à son contenu.
+![merlin-intérieur](merlin-interior.jpeg)
 
 ### Installation
 
