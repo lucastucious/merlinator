@@ -258,7 +258,7 @@ class MerlinGUI(GUIActions):
                 
     def load_image(self):
         filename = "merlinator_64px.ico"
-        with zipfile.ZipFile('../res/defaultPics.zip', 'r') as zfile:
+        with zipfile.ZipFile('data/defaultPics.zip', 'r') as zfile:
             zippath = zipfile.Path(zfile, at=filename)
             if zippath.exists():
                 with zfile.open(filename, 'r', pwd=info) as imagefile:
@@ -347,7 +347,7 @@ class MerlinGUI(GUIActions):
         
     def new_session(self):
         items = MerlinMainTree.defaultItems
-        with zipfile.ZipFile('../res/defaultPics.zip', 'r') as zfile:
+        with zipfile.ZipFile('data/defaultPics.zip', 'r') as zfile:
             self.load_thumbnails_from_zip(items, zfile)
         self.populate_trees(items, overwrite=True)
         self.buttonAddMenu['state'] = 'normal'

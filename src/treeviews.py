@@ -107,11 +107,11 @@ class MerlinMainTree(MerlinTree):
     favItem = {'id': 2, 'parent_id': 1, 'order': 0, 'nb_children': 0,
                'fav_order': 0, 'type': 10, 'limit_time': 0, 'add_time': 0, 
                'uuid': 'cd6949db-7c5f-486a-aa2b-48a80a7950d5', 'title': 'Merlin_favorite', 
-               'imagepath': '../res/defaultPics.zip', 'soundpath': ''}
+               'imagepath': 'data/defaultPics.zip', 'soundpath': ''}
     recentItem = {'id': 3, 'parent_id': 1, 'order': 1, 'nb_children': 0, 
                   'fav_order': 0, 'type': 18, 'limit_time': 0, 'add_time': 0, 
                   'uuid': '8794f486-c461-4ace-a44b-85c359f84017', 'title': 'Merlin_discover', 
-                  'imagepath': '../res/defaultPics.zip', 'soundpath': ''}
+                  'imagepath': 'data/defaultPics.zip', 'soundpath': ''}
     defaultItems = [rootItem, favItem, recentItem]
     
     def __init__(self, parent, root=None):
